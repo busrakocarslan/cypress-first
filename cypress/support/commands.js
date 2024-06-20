@@ -19,7 +19,19 @@ Cypress.Commands.add("login", () => {
     cy.get('[data-test="loginSubmit"]').should('be.visible').click({ force: true })// bazen click testinde sıkıntı yaşandığından force:true olarak ayarlandı. 
     cy.url().should('include', '/home')
 });// login compo gibi parçaçığı gbi düşün ihtiyaç olan her yerde kullanılacak.
-//
+Cypress.Commands.add("home", () => {
+    cy.get("[data-test='homeSearch']").type("r")
+    cy.get("[data-test='homeSearchBtn']").click({ force: true });
+    cy.get("[data-test='cardHeader']").should("be.visible")
+    cy.get("[data-test='cardImage']").should("be.visible")
+    cy.get("[data-test='cardBtn']").should("be.visible").first().click({ force: true });
+    cy.url().should("include", "/details");
+});
+
+
+
+
+
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //

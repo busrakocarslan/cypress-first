@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands'// commands dosyasına yazdığımız genel test kodlarını heryerde kullanmamızı sağlayan buradaki importture.
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
