@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo data-test="homeLogo" onClick={() => setIsOpen(false)} to="/home">
-        <i>{`<Clarusway/>`}</i>
+        <i>Intercontinental</i>
         <span> recipe</span>
       </Logo>
 
@@ -24,8 +24,8 @@ const Navbar = () => {
           About
         </MenuLink>
 
-        <A data-test="homeGithub" href="https://github.com/" target="_blank">
-          Github
+        <A data-test="homeGithub" href="https://medium.com/@busrakocarslan" target="_blank">
+          Medium
         </A>
 
         <MenuLink

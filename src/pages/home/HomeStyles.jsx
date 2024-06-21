@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
  
   display: flex;
+  
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
@@ -34,12 +35,14 @@ export const RecipeCard = styled.div`
 export const RecipeImage = styled.img`
  
   height: 150px;
+  
   border-radius: 10px;
 `;
 
 export const Button = styled.button`
 
   background-color: #00adb5;
+  
   padding: 5px;
   outline: none;
   height: 2rem;
@@ -53,6 +56,9 @@ export const RecipeHeader = styled.h1`
 
   font-size: 1.5rem;
   text-align: center;
+ 
+
+  
 `;
 
 export const ImgDiv = styled.div`
@@ -61,11 +67,16 @@ export const ImgDiv = styled.div`
   display: flex;
   justify-content: center;
   margin: 50px;
-  background-color: #00adb5;
+background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+  
+
 `;
 
 export const HomeImg = styled.img`
 
   width: 80%;
   max-width: 750px;
+  
 `;

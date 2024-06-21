@@ -7,7 +7,8 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: #e1f1dd;
+  background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   border-radius: 0 0 10px 10px;
   height: 75px;
   font-size: 2rem;
@@ -34,8 +35,8 @@ export const MenuLink = styled(Link)`
   text-decoration: none;
   color: #02475e;
   transition: all 0.3s ease-in;
-  font-size: 2rem;
-  font-family: 'Girassol', sans-serif;
+  font-size: 1.1rem;
+  font-family: "Playwrite NZ", cursive;
   &:hover {
     color: #00adb5;
     font-weight: bold;
@@ -48,8 +49,8 @@ export const MenuLink = styled(Link)`
     text-decoration: none;
     color: #02475e;
     transition: all 0.3s ease-in;
-    font-size: 2rem;
-    font-family: 'Girassol', sans-serif;
+    font-size: 1.1rem;
+    font-family: "Playwrite NZ", cursive;
   }
   a:hover {
     color: #00adb5;
@@ -78,18 +79,18 @@ export const Menu = styled.div`
 `;
 export const Logo = styled(Link)`
   padding: 1rem 0;
-  color: #393e46;
+  color: orangered;
   text-decoration: none;
   font-weight: 800;
   font-size: 2rem;
   i {
-    font-family: 'Girassol', sans-serif;
+   font-family: "Playwrite NZ", cursive;
   }
   span {
     font-family: 'Girassol', sans-serif;
     font-weight: 400;
-    font-size: 2rem;
-    color: #00adb5;
+    font-size: 1.1rem;
+    color: black;
   }
 `;
 export const A = styled.a`
@@ -98,8 +99,8 @@ export const A = styled.a`
   text-decoration: none;
   color: #02475e;
   transition: all 0.3s ease-in;
-  font-size: 2rem;
-  font-family: "Girassol", sans-serif;
+  font-size: 1.1rem;
+  font-family: "Playwrite NZ", cursive;
   &:hover {
     color: #00adb5;
     font-weight: bold;

@@ -9,6 +9,9 @@ export const AboutContainer = styled.div`
   align-items: center;
   min-height: calc(100vh - 80px);
   height: calc(100% - 100px);
+  background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
  
   line-height: 2;
   span {
@@ -22,11 +25,13 @@ export const InfoContainer = styled.div`
   text-align: center;
   margin: 0 10px;
   max-width: 1000px;
-  border: 1px solid black;
+  border: 10px solid orangered;
   padding: 25px;
   border-radius: 5px;
   a {
-    color: orange;
+    color: orangered;
+    font-size:1.5rem;
+    margin:1rem
   }
 `;
 
@@ -35,6 +40,6 @@ export const HeaderContainer = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  width: 500px;
+  width: 100px;
   margin-bottom: 2rem;
 `;

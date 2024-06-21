@@ -6,7 +6,9 @@ export const DetailContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: #00adb5;
+background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
   min-height: calc(100vh - 75px);
 
   padding: 5px;
@@ -22,7 +24,7 @@ export const DetailPart = styled.div`
   margin: 1rem;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: #e1f1dd;
+ background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   @media (max-width: 1250px) {
     justify-content: center;
 
@@ -32,7 +34,7 @@ export const DetailPart = styled.div`
 
 export const ImgContainer = styled.div`
 
-  border: 1px solid #00adb5;
+  border: 1px solid orangered;
   padding: 10px;
   border-radius: 3px;
   margin: 2rem;

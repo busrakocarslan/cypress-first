@@ -6,16 +6,20 @@ export const HeaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #00adb5;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+padding-top:1rem;
+border-radius:15px;
+
 `;
 export const UserHeader = styled.h4`
   display: flex;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: white;
-  font-weight: bold;
+  font-style: italic;
   letter-spacing:5px;
-  background: #00adb5;
+  background: inherit;
   margin-top: 0;
   margin-bottom: 0;
   `
@@ -23,7 +27,7 @@ export const MainHeader = styled.h2`
 
 
   margin-top: 0;
-  font-size: 3rem;
+  font-size: 2rem;
 `;
 
 export const FormContainer = styled.form`
@@ -54,7 +58,7 @@ export const FoodInput = styled.input`
 
 export const Button = styled.button`
 
-  background-color: #e1f1dd;
+ background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
   padding: 5px;
 
   height: 3rem;
@@ -63,10 +67,12 @@ export const Button = styled.button`
   border-radius: 3px;
   cursor: pointer;
   font-size: 2rem;
+ 
+  
   &:hover {
-    background-color: #00adb5;
+    font-size:1.8rem;
     transition: all 0.3s ease-in;
-    border: 1px solid white;
+    
   }
 `;
 

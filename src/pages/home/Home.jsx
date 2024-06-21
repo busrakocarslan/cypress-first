@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import Header from '../../components/header/Header'
 import { ImgDiv, MainContainer,HomeImg } from './HomeStyles';
-import homeSvg from "../../assets/home.svg"
+import homeSvg from "../../assets/recipe-575434_1280.png"
 import RecipeCardComp from './RecipeCardComp'
 
 //personal key and id
